@@ -1,11 +1,21 @@
-# For Mastodon API interaction
-Mastodon.py
+# Mastodon AI Content Filter - Python Dependencies
 
-# For loading configuration from the .env file
-python-dotenv
+# Mastodon API client
+Mastodon.py>=1.8.1
 
-# For the local Ollama AI backend
-ollama
+# Ollama client for local LLM inference
+ollama>=0.1.6
 
-# For the (optional) OpenAI AI backend
-openai
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Standard library modules (no installation needed, listed for reference)
+# - os
+# - time
+# - html
+# - json
+# - logging
+# - pathlib
+# - typing
+# - dataclasses
+# - datetime

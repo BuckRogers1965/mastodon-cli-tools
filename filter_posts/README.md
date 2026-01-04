@@ -80,6 +80,7 @@ Before the script can interact with your Mastodon account, you must register it 
     *   `read:notifications`: Allows the script to see your mentions.
     *   `write:blocks`: Allows the script to block accounts.
     *   `write:mutes`: Allows the script to mute accounts.
+    *   `write:statuses`: To post statuses (send replies/warnings to users)
     > **Security Tip:** It's best practice to only grant the minimum permissions required (Principle of Least Privilege). Avoid enabling powerful scopes like `write:statuses` or `admin:write` for this script.
 6.  Click **Save application**.
 7.  On the next page, you will see the application's details. You need to **copy three values**:
