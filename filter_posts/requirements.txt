@@ -1,0 +1,11 @@
+# For Mastodon API interaction
+Mastodon.py
+
+# For loading configuration from the .env file
+python-dotenv
+
+# For the local Ollama AI backend
+ollama
+
+# For the (optional) OpenAI AI backend
+openai
