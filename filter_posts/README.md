@@ -2,6 +2,8 @@
 
 A Python script that uses AI to automatically filter mentions on Mastodon and block accounts that post negative or toxic content. It is designed to be a personal moderation tool to help curate a more positive social media experience.
 
+⚠️ **THIS IS BETA CODE, IT IS WORK IN PROGRESS** ⚠️
+
 > ⚠️ **USE AT YOUR OWN RISK** ⚠️
 >
 > This script automates the blocking of other accounts. An AI model can and will make mistakes (false positives), potentially blocking an account you did not want to block.
