@@ -79,6 +79,7 @@ Before the script can interact with your Mastodon account, you must register it 
 5.  Under the **Scopes** section, you must grant the specific permissions the script needs. Uncheck any default selections and ensure **only** the following are checked:
     *   `read:notifications`: Allows the script to see your mentions.
     *   `write:blocks`: Allows the script to block accounts.
+    *   `write:mutes`: Allows the script to mute accounts.
     > **Security Tip:** It's best practice to only grant the minimum permissions required (Principle of Least Privilege). Avoid enabling powerful scopes like `write:statuses` or `admin:write` for this script.
 6.  Click **Save application**.
 7.  On the next page, you will see the application's details. You need to **copy three values**:
@@ -109,6 +110,10 @@ Before the script can interact with your Mastodon account, you must register it 
     # Option 2: OpenAI (Uncomment and fill if using)
     # OPENAI_API_KEY="paste_your_openai_api_key_here"
     ```
+
+## v2 Add your real friends to the allow list, these will never be blocked
+
+Crucially, add usernames to the ALLOWLIST. Use the full handle format, like friend@mastodon.social.
 
 ## Running the Script
 
